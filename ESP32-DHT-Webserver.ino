@@ -6,8 +6,8 @@
 
 #define DHTTYPE DHT11
 
-const char *ssid = "Niro";
-const char *password = "@Nid@Ali@";
+const char *ssid = "your_wifi";
+const char *password = "your_password";
 
 WebServer server(80);
 DHT dht(26, DHT11);
